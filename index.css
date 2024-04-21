@@ -19,11 +19,11 @@ body {
 
   
 h1 {
-   text-align: center;
+   text-align: center !important;
    font-size: 55px;
    font-weight: bold;
    color: #ffffff;
-   padding: 80px 80px 60px;
+   padding: 80px 80px 60px 80px;
    font-style: italic;
    white-space: nowrap;
 }
