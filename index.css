@@ -1,69 +1,100 @@
-* {
-    background-color: rgb(122, 121, 121);
+
+
+*, *::before, *::after {
+   box-sizing: border-box;
 }
+
+* {
+   margin: 0;
+   padding: 0;
+   line-height: 1.5;
+   background-color: rgb(122, 121, 121);
+}
+
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    padding: 10px;
 }
 
+  
 h1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color: #ffffff;
+   text-align: center;
+   font-size: 70px;
+   font-weight: bold;
+   color: #ffffff;
+   padding: 120px 80px 50px;
+   font-style: italic;
 }
- ul.recipes-list {
-    text-align: center;
-    list-style-type: none;
-        
- }
 
- .recipe-links {
+
+
+ul {
+   list-style: none;
+   text-align: center;
+   
+}
+
+#div-top {
+   display: inline-block;
+   padding: 100px 150px;
+   text-align: center;
+}
+
+
+img {
+   width: 350px; 
+   height: 350px;
+   border: 5px solid rgb(255, 255, 255);
+   border-radius: 2%;
+   margin-bottom: 30px;
+}  
+
+
+
+#recipes-text {
     text-decoration: none;
-    font-size: 18px;
-    font-weight:lighter;
+    font-size: 25px;
+    font-weight: bold;
     color: rgb(255, 255, 255);
-    background-color: #6aad6e;
-    
- }
+    font-style: italic ;
+} 
 
 
  #footer {
-    position:absolute;
-    bottom: 15px;
+    padding-top: 250px;
+    padding-left: 30px;
+    padding-bottom: 50px;
 
  }
-
- #footer h3{
+ 
+  #footer p {
+    text-align: left;	
+    font-size: medium;
+    font-weight: lighter;
+    color: #000000;
+  } 
+ 
+ h4{
     text-align: left;
     font-size: 25px;
     font-weight:lighter;
     color: #ffffff;
  }
 
- #footer, p {
-    display: inline;
-    font-size: 15px;
-    font-weight: lighter;
-    color: #000000;
-    
-   
- } 
-
- ul.inline li {
-    display: inline;
+ ul.inline{
+   text-align: left;
+ }
+ 
+ #div-bottom {
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
    
     
-        
   }
 
  .footer-links {
-    text-decoration: none;
     font-size: 18px;
     font-weight:bolder;
-    color: rgb(255, 255, 255);
-    background-color: #6aad6e;
-   
-    
+  
  }
